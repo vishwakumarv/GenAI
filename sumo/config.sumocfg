@@ -1,0 +1,13 @@
+<configuration>
+    <!-- New network: single controller A0, 45 s cycle. Open with:  sumo-gui -c sumo/config.sumocfg
+         Note: opening this directly runs SUMO's own fixed-time program WITHOUT emergency priority.
+         For priority use src/run_sim.py (see README). -->
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="routes.rou.xml,emergency.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>

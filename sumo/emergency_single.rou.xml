@@ -1,0 +1,8 @@
+<routes>
+    <!-- No bluelight device on purpose: the ambulance must obey signals, so priority
+         has to come from the controller. (With the device SUMO lets it run red lights.) -->
+    <vType id="emergency" vClass="emergency" guiShape="emergency" color="1,0,0"
+           length="7" width="2.5" maxSpeed="20" speedFactor="1.3" speedDev="0"/>
+
+    <trip id="ambulance_0" type="emergency" depart="600" departLane="best" departSpeed="max" from="top0A0" to="A0bottom0"/>
+</routes>

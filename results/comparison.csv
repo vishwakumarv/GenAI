@@ -1,0 +1,26 @@
+controller,emergency,seed,finished,unfinished,avg_wait_s,avg_travel_s,time_lost_h,avg_queue,amb_travel_s,amb_wait_s,amb_stops,safety_problems,amb_entered_not_green,priority_actions,scenario
+original,False,1,1750,50,37.2,88.93,26.18,19.02,88.79,52.14,35,,,,1 original (old 5-controller net)
+original,False,2,1761,39,35.46,88.25,25.31,18.01,80.4,45.87,34,,,,1 original (old 5-controller net)
+original,False,3,1758,42,32.16,82.5,22.98,16.34,72.2,38.3,30,,,,1 original (old 5-controller net)
+original,False,4,1762,38,37.61,89.15,26.44,19.14,90.57,52.63,38,,,,1 original (old 5-controller net)
+original,False,5,1753,47,33.95,85.61,24.53,17.36,74.28,39.34,29,,,,1 original (old 5-controller net)
+fixed,False,1,1764,35,16.52,67.45,15.56,7.85,43.0,10.03,25,0.0,,,2 fixed 45 s
+fixed,False,2,1766,33,20.96,74.9,18.71,9.92,42.93,11.2,23,0.0,,,2 fixed 45 s
+fixed,False,3,1771,29,14.65,64.73,14.21,6.9,40.2,9.43,21,0.0,,,2 fixed 45 s
+fixed,False,4,1761,39,17.42,68.38,16.23,8.34,45.93,12.2,27,0.0,,,2 fixed 45 s
+fixed,False,5,1758,42,18.63,71.09,17.19,8.86,42.13,9.43,22,0.0,,,2 fixed 45 s
+fixed,True,1,1763,36,18.35,69.66,16.71,8.73,29.47,0.0,0,0.0,0.0,30.0,3 fixed 45 s + ambulance priority
+fixed,True,2,1759,41,22.6,76.91,19.83,10.79,27.77,0.0,0,0.0,0.0,30.0,3 fixed 45 s + ambulance priority
+fixed,True,3,1765,35,17.14,67.94,15.85,8.09,26.27,0.1,1,0.0,0.0,30.0,3 fixed 45 s + ambulance priority
+fixed,True,4,1765,35,19.65,71.12,17.53,9.3,28.2,0.0,0,0.0,0.0,30.0,3 fixed 45 s + ambulance priority
+fixed,True,5,1758,42,18.37,70.3,16.78,8.69,27.8,0.07,2,0.0,0.0,30.0,3 fixed 45 s + ambulance priority
+rl,False,1,1763,37,17.65,72.11,17.76,8.71,52.87,14.3,45,0.0,,,4 RL
+rl,False,2,1770,30,16.82,71.84,17.2,8.28,45.57,11.5,36,0.0,,,4 RL
+rl,False,3,1769,31,15.01,67.5,15.53,7.42,48.17,13.37,50,0.0,,,4 RL
+rl,False,4,1765,35,15.66,68.91,16.36,7.74,52.57,15.3,54,0.0,,,4 RL
+rl,False,5,1765,35,19.81,76.33,19.72,9.8,56.53,16.97,59,0.0,,,4 RL
+rl,True,1,1764,36,19.32,73.52,18.46,9.39,31.43,0.4,5,0.0,0.0,30.0,5 RL + ambulance priority
+rl,True,2,1757,42,22.0,78.92,20.81,10.8,29.47,0.5,5,0.0,0.0,30.0,5 RL + ambulance priority
+rl,True,3,1764,36,18.45,71.78,17.69,9.04,30.17,0.77,8,0.0,0.0,30.0,5 RL + ambulance priority
+rl,True,4,1763,37,18.55,72.31,18.06,9.0,30.2,0.6,6,0.0,0.0,30.0,5 RL + ambulance priority
+rl,True,5,1764,36,21.0,76.53,19.84,10.23,30.73,0.7,9,0.0,0.0,30.0,5 RL + ambulance priority

@@ -1,0 +1,6 @@
+scenario,avg_wait_s,avg_travel_s,time_lost_h,avg_queue,finished,amb_travel_s,amb_wait_s,amb_stops,safety_problems,amb_entered_not_green
+1 original (old 5-controller net),35.28,86.89,25.09,17.97,1756.8,81.25,45.66,33.2,,
+2 fixed 45 s,17.64,69.31,16.38,8.37,1764.0,42.84,10.46,23.6,0.0,
+3 fixed 45 s + ambulance priority,19.22,71.19,17.34,9.12,1762.0,27.9,0.03,0.6,0.0,0.0
+4 RL,16.99,71.34,17.31,8.39,1766.4,51.14,14.29,48.8,0.0,
+5 RL + ambulance priority,19.86,74.61,18.97,9.69,1762.4,30.4,0.59,6.6,0.0,0.0
